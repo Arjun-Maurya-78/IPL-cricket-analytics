@@ -25,7 +25,7 @@ To design and develop an end-to-end interactive Power BI dashboard that enables 
 
 ---
 
-### 5. 🎨 Dashboard Design
+### 🎨 Dashboard Design
 Built 3 fully interactive report pages with a cohesive IPL-themed blue palette:
 
 | Visual Type | Usage |
@@ -38,7 +38,7 @@ Built 3 fully interactive report pages with a cohesive IPL-themed blue palette:
 | Column Chart | Team-wise Avg Inning Score |
 | Matrix Table | Home Ground Wins by Team & Venue |
 
-### 6. 🎛️ Interactivity & UX
+### 🎛️ Interactivity & UX
 - Slicers: Man of the Match, High Scoring, Team, Toss Decision, Season, Venue
 - Navigation buttons: Overview → Team Analysis → Attendance & Players
 - **"Clear All Slicer"** button for one-click filter reset
