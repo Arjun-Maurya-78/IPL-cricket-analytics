@@ -7,23 +7,6 @@
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
----
-
-## 📋 Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Project Objective](#-project-objective)
-- [Dashboard Pages](#-dashboard-pages)
-- [Questions & KPIs](#-questions--kpis)
-- [Process](#%EF%B8%8F-process)
-- [Project Insights](#-project-insights)
-- [Final Conclusion](#-final-conclusion)
-- [Tools Used](#%EF%B8%8F-tools-used)
-- [Dataset](#-dataset)
-- [Connect With Me](#-connect-with-me)
-
----
-
 ## 📌 Project Overview
 
 **IPL Pulse** is a multi-page interactive Power BI dashboard that transforms raw Indian Premier League (IPL) match data from **2017 to 2023** into compelling, actionable insights. Covering **200 matches**, **10 teams**, and **10 iconic venues**, this project simulates a real-world sports analytics use case — exploring team strategies, player brilliance, toss dynamics, and fan attendance trends through rich visual storytelling.
@@ -150,27 +133,18 @@ Built 3 fully interactive report pages with a cohesive IPL-themed blue palette:
 ## 💡 Project Insights
 
 - 🏆 **Royal Challengers Bangalore** leads in Man of the Match awards with **26** — reflecting exceptional individual performances despite inconsistent team results.
-
 - 🪙 **Toss winners chose to field 52.5% of the time**, confirming a modern T20 preference for chasing, yet winning the toss alone doesn't guarantee victory (only 47% toss-to-match win rate).
-
 - 🏏 **Batting first teams won 55% of matches**, challenging the common narrative that chasing is always the preferred approach in T20 cricket.
-
 - 📈 **Tournament attendance peaked around 2020–2021** at ~40K average before declining sharply in 2022–2023, likely due to venue rotations and scheduling changes post-COVID.
-
 - ⭐ **Virat Kohli** dominates the individual impact chart with **17 Man of the Match awards** — nearly 21% more than second-placed Sunil Narine (14).
-
 - 🏟️ **Royal Challengers Bangalore's home ground** (M. Chinnaswamy Stadium, Bangalore) records **16 Team1 wins** — the highest home advantage across all venues.
-
 - 🎯 **55% of matches were won by wickets** versus 45% by runs, reinforcing the dominance of successful run-chases across modern IPL cricket.
-
 - 📊 **Chennai Super Kings and Gujarat Titans** lead in average innings scoring (~185+), demonstrating consistent batting depth across seasons.
-
 ---
 
 ## ✅ Final Conclusion
 
 The **IPL Pulse Dashboard** reveals several data-driven paradoxes in cricket strategy. While toss winners prefer to field, batting-first teams actually hold a marginal statistical edge in match outcomes — a finding that challenges conventional T20 wisdom and opens doors for further analysis.
-
 Player consistency remains a reliable indicator of team success: Kohli, Narine, and Samson regularly appear as match-deciding performers. Additionally, home venue advantage is real and quantifiable, with certain franchises showing significantly higher win rates at their home grounds.
 
 From a portfolio perspective, this project demonstrates proficiency in:
@@ -193,7 +167,6 @@ From a portfolio perspective, this project demonstrates proficiency in:
 ---
 
 ## 📁 Dataset
-
 | Attribute | Detail |
 |-----------|--------|
 | **File** | `IPL_Match_Data.csv` |
@@ -202,41 +175,6 @@ From a portfolio perspective, this project demonstrates proficiency in:
 | **Seasons Covered** | 2017 – 2023 |
 | **Teams** | 10 IPL franchises |
 | **Venues** | 10 stadiums across India |
-
-### 📄 Dataset Columns
-
-| Column | Description |
-|--------|-------------|
-| `Match_ID` | Unique match identifier |
-| `Season` | IPL season year (2017–2023) |
-| `Match_Type` | League / Playoff |
-| `Venue` | Stadium name and city |
-| `Team1` | Home / first listed team |
-| `Team2` | Away / second listed team |
-| `Toss_Winner` | Team that won the toss |
-| `Toss_Decision` | Bat or Field decision after toss |
-| `Team1_Score` | Runs scored by Team 1 |
-| `Team1_Wickets` | Wickets lost by Team 1 |
-| `Team1_Overs_Played` | Overs faced by Team 1 |
-| `Team2_Score` | Runs scored by Team 2 |
-| `Team2_Wickets` | Wickets lost by Team 2 |
-| `Team2_Overs_Played` | Overs faced by Team 2 |
-| `Match_Winner` | Winning team |
-| `Win_By` | Won by Runs or Wickets |
-| `Win_Margin` | Margin of victory |
-| `Man_of_the_Match` | Player awarded MoM |
-| `Stadium_Attendance` | Number of spectators present |
-
-### 🔍 Sample Data Preview
-
-| Match_ID | Season | Venue | Team1 | Team2 | Toss_Decision | Match_Winner | Win_By | Win_Margin | Man_of_the_Match | Attendance |
-|----------|--------|-------|-------|-------|---------------|--------------|--------|------------|------------------|------------|
-| 1001 | 2017 | Narendra Modi Stadium, Ahmedabad | Gujarat Titans | Mumbai Indians | Field | Mumbai Indians | Wickets | 6 | Sunil Narine | 33,174 |
-| 1002 | 2017 | MA Chidambaram Stadium, Chennai | Chennai Super Kings | RCB | Bat | RCB | Wickets | 3 | Rohit Sharma | 25,816 |
-| 1003 | 2017 | Eden Gardens, Kolkata | Kolkata Knight Riders | Chennai Super Kings | Bat | KKR | Runs | 13 | Shikhar Dhawan | 59,883 |
-| 1004 | 2017 | Sawai Mansingh Stadium, Jaipur | Rajasthan Royals | KKR | Field | Rajasthan Royals | Runs | 7 | Rishabh Pant | 30,237 |
-| 1005 | 2017 | Sawai Mansingh Stadium, Jaipur | Rajasthan Royals | Sunrisers Hyderabad | Field | Sunrisers Hyderabad | Wickets | 7 | David Warner | 53,660 |
-
 > 📂 Full dataset available in [`IPL_Match_Data.csv`](IPL_Match_Data.csv)
 
 ---
