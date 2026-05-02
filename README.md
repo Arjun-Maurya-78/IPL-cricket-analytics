@@ -25,6 +25,27 @@ To design and develop an end-to-end interactive Power BI dashboard that enables 
 
 ---
 
+### 5. 🎨 Dashboard Design
+Built 3 fully interactive report pages with a cohesive IPL-themed blue palette:
+
+| Visual Type | Usage |
+|-------------|-------|
+| KPI Cards | Top-level executive metrics |
+| Horizontal Bar Chart | Most Successful Teams, Most Impactful Players |
+| Donut Chart | Toss Preference (Bat vs Field), Win Margin Distribution |
+| Line Chart | Tournament Growth (2017–2023), Avg Attendance by Season |
+| Stacked Bar Chart | Toss Winner vs Match Winner Correlation |
+| Column Chart | Team-wise Avg Inning Score |
+| Matrix Table | Home Ground Wins by Team & Venue |
+
+### 6. 🎛️ Interactivity & UX
+- Slicers: Man of the Match, High Scoring, Team, Toss Decision, Season, Venue
+- Navigation buttons: Overview → Team Analysis → Attendance & Players
+- **"Clear All Slicer"** button for one-click filter reset
+- Tooltip enhancements for richer on-hover data context
+
+---
+
 ## 📊 Dashboard Pages
 
 ### Page 1 — IPL Executive Summary (Overview)
@@ -109,26 +130,7 @@ Avg First Innings Score = AVERAGE(Matches[Team1_Score])
 Avg Attendance = AVERAGE(Matches[Stadium_Attendance])
 ```
 
-### 5. 🎨 Dashboard Design
-Built 3 fully interactive report pages with a cohesive IPL-themed blue palette:
 
-| Visual Type | Usage |
-|-------------|-------|
-| KPI Cards | Top-level executive metrics |
-| Horizontal Bar Chart | Most Successful Teams, Most Impactful Players |
-| Donut Chart | Toss Preference (Bat vs Field), Win Margin Distribution |
-| Line Chart | Tournament Growth (2017–2023), Avg Attendance by Season |
-| Stacked Bar Chart | Toss Winner vs Match Winner Correlation |
-| Column Chart | Team-wise Avg Inning Score |
-| Matrix Table | Home Ground Wins by Team & Venue |
-
-### 6. 🎛️ Interactivity & UX
-- Slicers: Man of the Match, High Scoring, Team, Toss Decision, Season, Venue
-- Navigation buttons: Overview → Team Analysis → Attendance & Players
-- **"Clear All Slicer"** button for one-click filter reset
-- Tooltip enhancements for richer on-hover data context
-
----
 
 ## 💡 Project Insights
 
