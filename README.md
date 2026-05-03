@@ -74,29 +74,16 @@ Spotlight on the most impactful players by Man of the Match count, home ground w
 
 ---
 
-## ⚙️ Process
+## 🛠️ Tools Used
 
-### 1. 📥 Data Collection
-Sourced a structured IPL match-level dataset (`IPL_Match_Data.csv`) containing **200 matches** across seasons 2017–2023, with fields covering:
-- Match metadata (Season, Venue, Teams, Match Type)
-- Scorecard data (Team Scores, Wickets, Overs)
-- Outcome data (Winner, Win By, Win Margin)
-- Player & Attendance data (Man of the Match, Stadium Attendance)
+| Tool | Purpose |
+|------|---------|
+| **Power BI Desktop** | Dashboard development, DAX, visuals |
+| **Power Query** | Data cleaning & transformation |
+| **DAX** | Custom measures & calculated columns |
+| **Microsoft Excel** | Data exploration & pre-processing |
 
-### 2. 🧹 Data Cleaning & Transformation
-- Removed null/inconsistent values using **Power Query Editor**
-- Standardized team names and venue labels for uniform grouping
-- Created conditional columns:
-  - `High_Scoring` flag (matches where Team1 Score > 200)
-  - `Toss_Match_Win` (whether toss winner = match winner)
-  - `Season` as a slicer-friendly dimension
-
-### 3. 🔗 Data Modelling
-- Built star-schema relationships between Match, Team, Player, and Venue dimensions
-- Ensured referential integrity across all fact and dimension tables
-
-### 4. 📐 DAX Measures
-Custom measures built to power dynamic visuals:
+---
 
 ## 💡 Project Insights
 
@@ -132,16 +119,6 @@ From a portfolio perspective, this project demonstrates proficiency in:
 
 ---
 
-## 🛠️ Tools Used
-
-| Tool | Purpose |
-|------|---------|
-| **Power BI Desktop** | Dashboard development, DAX, visuals |
-| **Power Query** | Data cleaning & transformation |
-| **DAX** | Custom measures & calculated columns |
-| **Microsoft Excel** | Data exploration & pre-processing |
-
----
 
 ## 📁 Dataset
 
