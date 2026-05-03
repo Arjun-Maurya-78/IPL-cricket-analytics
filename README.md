@@ -9,22 +9,8 @@
 
 ---
 
-## 📋 Table of Contents
 
-- [Project Overview](#-project-overview)
-- [Project Objective](#-project-objective)
-- [Dashboard Pages](#-dashboard-pages)
-- [Questions & KPIs](#-questions--kpis)
-- [Process](#%EF%B8%8F-process)
-- [Project Insights](#-project-insights)
-- [Final Conclusion](#-final-conclusion)
-- [Tools Used](#%EF%B8%8F-tools-used)
-- [Dataset](#-dataset)
-- [Connect With Me](#-connect-with-me)
-
----
-
-## 🎬 Dashboard Demo
+## 🎬Dashboard Demo
 
 ![IPL Pulse Dashboard Demo](ipl_dashboard_demo.gif)
 
@@ -251,7 +237,7 @@ From a portfolio perspective, this project demonstrates proficiency in:
 
 If you found this project insightful, feel free to ⭐ star the repository and connect!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-maurya-78-19b0b52a9)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
 
 ---
