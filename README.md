@@ -8,14 +8,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
 ---
-
-
-## 🎬Dashboard Demo
-
-![IPL Pulse Dashboard Demo](ipl_dashboard_demo.gif)
-
----
-
 ## 📌 Project Overview
 
 **IPL Pulse** is a multi-page interactive Power BI dashboard that transforms raw Indian Premier League (IPL) match data from **2017 to 2023** into compelling, actionable insights. Covering **200 matches**, **10 teams**, and **10 iconic venues**, this project simulates a real-world sports analytics use case — exploring team strategies, player brilliance, toss dynamics, and fan attendance trends through rich visual storytelling.
@@ -31,6 +23,12 @@ To design and develop an end-to-end interactive Power BI dashboard that enables 
 - Identify consistent match-winners and most impactful players
 - Analyze venue-based home advantages and attendance trends
 - Derive data-driven insights that go beyond scorecards
+
+---
+
+## 🎬Dashboard Demo
+
+![IPL Pulse Dashboard Demo](ipl_dashboard_demo.gif)
 
 ---
 
@@ -100,45 +98,6 @@ Sourced a structured IPL match-level dataset (`IPL_Match_Data.csv`) containing *
 ### 4. 📐 DAX Measures
 Custom measures built to power dynamic visuals:
 
-```dax
-Toss Win % =
-DIVIDE(
-    COUNTROWS(FILTER(Matches, Matches[Toss_Winner] = Matches[Match_Winner])),
-    COUNTROWS(Matches)
-) * 100
-
-Bat First Win % =
-DIVIDE(
-    COUNTROWS(FILTER(Matches, Matches[Toss_Decision] = "Bat" && Matches[Toss_Winner] = Matches[Match_Winner])),
-    COUNTROWS(FILTER(Matches, Matches[Toss_Decision] = "Bat"))
-) * 100
-
-Avg First Innings Score = AVERAGE(Matches[Team1_Score])
-
-Avg Attendance = AVERAGE(Matches[Stadium_Attendance])
-```
-
-### 5. 🎨 Dashboard Design
-Built 3 fully interactive report pages with a cohesive IPL-themed blue palette:
-
-| Visual Type | Usage |
-|-------------|-------|
-| KPI Cards | Top-level executive metrics |
-| Horizontal Bar Chart | Most Successful Teams, Most Impactful Players |
-| Donut Chart | Toss Preference (Bat vs Field), Win Margin Distribution |
-| Line Chart | Tournament Growth (2017–2023), Avg Attendance by Season |
-| Stacked Bar Chart | Toss Winner vs Match Winner Correlation |
-| Column Chart | Team-wise Avg Inning Score |
-| Matrix Table | Home Ground Wins by Team & Venue |
-
-### 6. 🎛️ Interactivity & UX
-- Slicers: Man of the Match, High Scoring, Team, Toss Decision, Season, Venue
-- Navigation buttons: Overview → Team Analysis → Attendance & Players
-- **"Clear All Slicer"** button for one-click filter reset
-- Tooltip enhancements for richer on-hover data context
-
----
-
 ## 💡 Project Insights
 
 - 🏆 **Royal Challengers Bangalore** leads in Man of the Match awards with **26** — reflecting exceptional individual performances despite inconsistent team results.
@@ -194,41 +153,6 @@ From a portfolio perspective, this project demonstrates proficiency in:
 | **Seasons Covered** | 2017 – 2023 |
 | **Teams** | 10 IPL franchises |
 | **Venues** | 10 stadiums across India |
-
-### 📄 Dataset Columns
-
-| Column | Description |
-|--------|-------------|
-| `Match_ID` | Unique match identifier |
-| `Season` | IPL season year (2017–2023) |
-| `Match_Type` | League / Playoff |
-| `Venue` | Stadium name and city |
-| `Team1` | Home / first listed team |
-| `Team2` | Away / second listed team |
-| `Toss_Winner` | Team that won the toss |
-| `Toss_Decision` | Bat or Field decision after toss |
-| `Team1_Score` | Runs scored by Team 1 |
-| `Team1_Wickets` | Wickets lost by Team 1 |
-| `Team1_Overs_Played` | Overs faced by Team 1 |
-| `Team2_Score` | Runs scored by Team 2 |
-| `Team2_Wickets` | Wickets lost by Team 2 |
-| `Team2_Overs_Played` | Overs faced by Team 2 |
-| `Match_Winner` | Winning team |
-| `Win_By` | Won by Runs or Wickets |
-| `Win_Margin` | Margin of victory |
-| `Man_of_the_Match` | Player awarded MoM |
-| `Stadium_Attendance` | Number of spectators present |
-
-### 🔍 Sample Data Preview
-
-| Match_ID | Season | Venue | Team1 | Team2 | Toss_Decision | Match_Winner | Win_By | Win_Margin | Man_of_the_Match | Attendance |
-|----------|--------|-------|-------|-------|---------------|--------------|--------|------------|------------------|------------|
-| 1001 | 2017 | Narendra Modi Stadium, Ahmedabad | Gujarat Titans | Mumbai Indians | Field | Mumbai Indians | Wickets | 6 | Sunil Narine | 33,174 |
-| 1002 | 2017 | MA Chidambaram Stadium, Chennai | Chennai Super Kings | RCB | Bat | RCB | Wickets | 3 | Rohit Sharma | 25,816 |
-| 1003 | 2017 | Eden Gardens, Kolkata | Kolkata Knight Riders | Chennai Super Kings | Bat | KKR | Runs | 13 | Shikhar Dhawan | 59,883 |
-| 1004 | 2017 | Sawai Mansingh Stadium, Jaipur | Rajasthan Royals | KKR | Field | Rajasthan Royals | Runs | 7 | Rishabh Pant | 30,237 |
-| 1005 | 2017 | Sawai Mansingh Stadium, Jaipur | Rajasthan Royals | Sunrisers Hyderabad | Field | Sunrisers Hyderabad | Wickets | 7 | David Warner | 53,660 |
-
 > 📂 Full dataset available in [`IPL_Match_Data.csv`](IPL_Match_Data.csv)
 
 ---
@@ -241,5 +165,3 @@ If you found this project insightful, feel free to ⭐ star the repository and c
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
 
 ---
-
-*Made with ❤️ and Power BI*
