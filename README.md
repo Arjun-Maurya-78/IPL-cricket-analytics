@@ -2,11 +2,6 @@
 
 > **"Where Every Match Tells a Story — Decoded by Data."**
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-
 ---
 ## 📌 Project Overview
 
@@ -83,6 +78,9 @@ Spotlight on the most impactful players by Man of the Match count, home ground w
 | **DAX** | Custom measures & calculated columns |
 | **Microsoft Excel** | Data exploration & pre-processing |
 
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ---
 
 ## 💡 Project Insights
