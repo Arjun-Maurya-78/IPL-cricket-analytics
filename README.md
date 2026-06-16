@@ -9,18 +9,6 @@
 
 ---
 
-## 🎯 Project Objective
-
-To design and develop an end-to-end interactive Power BI dashboard that enables cricket analysts, team strategists, and enthusiasts to:
-
-- Understand performance patterns across IPL seasons
-- Evaluate the strategic impact of toss decisions on match outcomes
-- Identify consistent match-winners and most impactful players
-- Analyze venue-based home advantages and attendance trends
-- Derive data-driven insights that go beyond scorecards
-
----
-
 ## 🎬Dashboard Demo
 
 ![IPL Pulse Dashboard Demo](ipl_dashboard_demo.gif)
@@ -84,26 +72,6 @@ Spotlight on the most impactful players by Man of the Match count, home ground w
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ---
 
-## 💡 Project Insights
-
-- 🏆 **Royal Challengers Bangalore** leads in Man of the Match awards with **26** — reflecting exceptional individual performances despite inconsistent team results.
-
-- 🪙 **Toss winners chose to field 52.5% of the time**, confirming a modern T20 preference for chasing, yet winning the toss alone doesn't guarantee victory (only 47% toss-to-match win rate).
-
-- 🏏 **Batting first teams won 55% of matches**, challenging the common narrative that chasing is always the preferred approach in T20 cricket.
-
-- 📈 **Tournament attendance peaked around 2020–2021** at ~40K average before declining sharply in 2022–2023, likely due to venue rotations and scheduling changes post-COVID.
-
-- ⭐ **Virat Kohli** dominates the individual impact chart with **17 Man of the Match awards** — nearly 21% more than second-placed Sunil Narine (14).
-
-- 🏟️ **Royal Challengers Bangalore's home ground** (M. Chinnaswamy Stadium, Bangalore) records **16 Team1 wins** — the highest home advantage across all venues.
-
-- 🎯 **55% of matches were won by wickets** versus 45% by runs, reinforcing the dominance of successful run-chases across modern IPL cricket.
-
-- 📊 **Chennai Super Kings and Gujarat Titans** lead in average innings scoring (~185+), demonstrating consistent batting depth across seasons.
-
----
-
 ## ✅ Final Conclusion
 
 The **IPL Pulse Dashboard** reveals several data-driven paradoxes in cricket strategy. While toss winners prefer to field, batting-first teams actually hold a marginal statistical edge in match outcomes — a finding that challenges conventional T20 wisdom and opens doors for further analysis.
@@ -135,9 +103,8 @@ From a portfolio perspective, this project demonstrates proficiency in:
 
 ## 🤝 Connect With Me
 
-🔥 “If this dashboard sparked ideas, drop a ⭐ and connect!”  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-maurya-78-19b0b52a9)
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-maurya-78-19b0b52a9)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arjunmaurya3837@gmail.com)
 
+> 💬 Open to feedback, collaboration, and data analytics discussions!
 ---
